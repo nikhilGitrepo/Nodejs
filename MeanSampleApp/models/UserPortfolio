@@ -1,0 +1,5 @@
+var Stock = require('Stock');
+
+module.exports = function(){
+    
+};

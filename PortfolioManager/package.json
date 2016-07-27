@@ -1,0 +1,22 @@
+{
+  "name": "portfoliomanager",
+  "version": "1.0.0",
+  "description": "A simple porfolio management tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Hiremath",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.13.0",
+    "http": "0.0.0",
+    "morgan": "^1.7.0",
+    "quandl": "0.0.6",
+    "request": "^2.72.0"
+  }
+}

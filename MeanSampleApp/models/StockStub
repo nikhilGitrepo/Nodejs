@@ -1,0 +1,12 @@
+module.exports = function(){
+
+    return {
+        symbol: String,
+        date : Date,
+        open : Number,
+        high : Number,
+        Low : Number,
+        Close :Number
+    }
+
+};

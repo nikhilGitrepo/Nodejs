@@ -1,0 +1,22 @@
+var connect = require('connect');
+var http = require('http');
+
+var app = connect();
+
+app.use(function(req, response, next) {
+	response.writeHead(200,{"Content-Type":"text/plain"});
+	response.write('Page found!');
+	next();
+
+})
+
+app.use(secondFn);
+
+function secondFn(req, response, next){
+	response.writeHead(200,{"Content-Type":"text/plain"});
+	response.write('Page found Again!!');
+}
+
+
+http.createServer(app).listen(8888);
+console.log('Server has started running...');

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;SampleNodeProject&apos;&#x0D;&#x0A;- Original project: &apos;SampleNodeProject&apos;&#x0D;&#x0A;- Destination element: &apos;SampleNodeProject&apos;&#x0D;&#x0A;- Original element: &apos;server.js&apos;" description="Copy file" element1="server.js" files="1" flags="589830" folders="0" id="org.eclipse.wst.jsdt.ui.copy" log="server.js&#x09;true&#x09;true&#x09;server-copy-1.js" policy="org.eclipse.wst.jsdt.ui.copyResources" stamp="1465227831129" target="/SampleNodeProject" units="0" version="1.0"/>
+</session>

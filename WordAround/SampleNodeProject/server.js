@@ -1,0 +1,29 @@
+var connect = require('connect');
+var http = require('http');
+
+var app = connect();
+
+function firstFn(req, response, next) {
+/*	response.writeHead(200,{"Content-Type":"text/plain"});
+	response.write('Page found!');
+*/
+	console.log('firstFn');
+	next();
+
+}
+
+function secondFn(req, response, next){
+/*
+	response.writeHead(200,{"Content-Type":"text/plain"});
+	response.write('Page found Again!!');
+*/
+	console.log('SecondFn');
+	next();
+}
+
+
+app.use('/first',firstFn);
+app.use('/second',secondFn); 
+
+http.createServer(app).listen(8888);
+console.log('Server has started running...');
